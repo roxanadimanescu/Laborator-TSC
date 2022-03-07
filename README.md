@@ -1,1 +1,2 @@
+prezenta
 # Laborator-TSC
