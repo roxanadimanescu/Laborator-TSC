@@ -16,5 +16,18 @@ opcode_t       opcode;
 operand_t      operand_a, operand_b;
 address_t      write_pointer, read_pointer;
 instruction_t  instruction_word;
+clocking cb @(posedge clk);
+inout  load_en;
+inout  reset_n;
+inout  opcode;
+inout  operand_a;
+inout operand_b;
+inout write_pointer;
+inout read_pointer;
+inout instruction_word;
+
+
+endclocking
+modport TEST (clocking cb);
 endinterface: tb_ifc
 
