@@ -40,7 +40,7 @@ module top;
     //.write_pointer(write_pointer),
     //.read_pointer(read_pointer),
     //.instruction_word(instruction_word)
-    lab2_if
+    .lab2_if(lab2_if)
    );
 
   // instantiate design and connect ports
