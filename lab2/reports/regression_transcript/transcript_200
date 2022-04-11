@@ -1,0 +1,173 @@
+# 1
+# Model Technology ModelSim SE vlog 6.6d Compiler 2010.11 Nov  1 2010
+# -- Compiling package instr_register_pkg
+# -- Compiling module instr_register
+# -- Importing package instr_register_pkg
+# -- Compiling package instr_register_test_sv_unit
+# -- Importing package instr_register_pkg
+# -- Compiling module instr_register_test
+# -- Compiling interface tb_ifc
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# vsim +notimingchecks +nowarnTSCALE -sva -nocoverage -quiet -novopt top 
+# Refreshing D:\Anul 4\4B\Laborator TSC\lab2\sim\work.instr_register_pkg
+# Refreshing D:\Anul 4\4B\Laborator TSC\lab2\sim\work.top
+# Refreshing D:\Anul 4\4B\Laborator TSC\lab2\sim\work.tb_ifc
+# Refreshing D:\Anul 4\4B\Laborator TSC\lab2\sim\work.instr_register_test_sv_unit
+# Refreshing D:\Anul 4\4B\Laborator TSC\lab2\sim\work.instr_register_test
+# Refreshing D:\Anul 4\4B\Laborator TSC\lab2\sim\work.instr_register
+# ** Warning: (vsim-8441) ../../lab2/test/instr_register_class.sv(71): Clocking block output lab2_if.cb.opcode is not legal in this
+# or another expression.
+#         Region: /instr_register_test_sv_unit
+# ** Warning: (vsim-8441) ../../lab2/test/instr_register_class.sv(72): Clocking block output lab2_if.cb.operand_a is not legal in this
+# or another expression.
+#         Region: /instr_register_test_sv_unit
+# ** Warning: (vsim-8441) ../../lab2/test/instr_register_class.sv(73): Clocking block output lab2_if.cb.operand_b is not legal in this
+# or another expression.
+#         Region: /instr_register_test_sv_unit
+# ** Warning: (vsim-8441) ../../lab2/test/instr_register_class.sv(70): Clocking block output lab2_if.cb.write_pointer is not legal in this
+# or another expression.
+#         Region: /instr_register_test_sv_unit
+# ** Warning: (vsim-8441) ../../lab2/test/instr_register_class.sv(77): Clocking block output lab2_if.cb.read_pointer is not legal in this
+# or another expression.
+#         Region: /instr_register_test_sv_unit
+# 
+# 
+# ***********************************************************
+# ***  THIS IS NOT A SELF-CHECKING TESTBENCH (YET).  YOU  ***
+# ***  NEED TO VISUALLY VERIFY THAT THE OUTPUT VALUES     ***
+# ***  MATCH THE INPUT VALUES FOR EACH REGISTER LOCATION  ***
+# ***********************************************************
+# First head
+# 
+# Reseting the instruction register...
+# 
+# Writing values to register stack...
+# Writing to register location 0: 
+#   opcode = 1 (PASSA)
+#   operand_a = 4
+#   operand_b = 1
+# 
+# Writing to register location 1: 
+#   opcode = 5 (MULT)
+#   operand_a = -13
+#   operand_b = 13
+# 
+# Writing to register location 2: 
+#   opcode = 1 (PASSA)
+#   operand_a = -11
+#   operand_b = 2
+# 
+# Writing to register location 3: 
+#   opcode = 5 (MULT)
+#   operand_a = 13
+#   operand_b = 6
+# 
+# Writing to register location 4: 
+#   opcode = 1 (PASSA)
+#   operand_a = 13
+#   operand_b = 12
+# 
+# Writing to register location 5: 
+#   opcode = 2 (PASSB)
+#   operand_a = -10
+#   operand_b = 5
+# 
+# Writing to register location 6: 
+#   opcode = 2 (PASSB)
+#   operand_a = 5
+#   operand_b = 7
+# 
+# Writing to register location 7: 
+#   opcode = 6 (DIV)
+#   operand_a = 15
+#   operand_b = 2
+# 
+# Writing to register location 8: 
+#   opcode = 4 (SUB)
+#   operand_a = -8
+#   operand_b = 5
+# 
+# Writing to register location 9: 
+#   opcode = 5 (MULT)
+#   operand_a = -3
+#   operand_b = 13
+# 
+# 
+# Reading back the same register locations written...
+# Read from register location 0: 
+#   opcode = 1 (PASSA)
+#   operand_a = 4
+#   operand_b = 1
+#   result = 4
+# 
+# Read from register location 1: 
+#   opcode = 5 (MULT)
+#   operand_a = -13
+#   operand_b = 13
+#   result = -169
+# 
+# Read from register location 2: 
+#   opcode = 1 (PASSA)
+#   operand_a = -11
+#   operand_b = 2
+#   result = -11
+# 
+# Read from register location 3: 
+#   opcode = 5 (MULT)
+#   operand_a = 13
+#   operand_b = 6
+#   result = 78
+# 
+# Read from register location 4: 
+#   opcode = 1 (PASSA)
+#   operand_a = 13
+#   operand_b = 12
+#   result = 13
+# 
+# Read from register location 5: 
+#   opcode = 2 (PASSB)
+#   operand_a = -10
+#   operand_b = 5
+#   result = 5
+# 
+# Read from register location 6: 
+#   opcode = 2 (PASSB)
+#   operand_a = 5
+#   operand_b = 7
+#   result = 7
+# 
+# Read from register location 7: 
+#   opcode = 6 (DIV)
+#   operand_a = 15
+#   operand_b = 2
+#   result = 7
+# 
+# Read from register location 8: 
+#   opcode = 4 (SUB)
+#   operand_a = -8
+#   operand_b = 5
+#   result = -13
+# 
+# Read from register location 9: 
+#   opcode = 5 (MULT)
+#   operand_a = -3
+#   operand_b = 13
+#   result = -39
+# 
+# 
+# ***********************************************************
+# ***  THIS IS NOT A SELF-CHECKING TESTBENCH (YET).  YOU  ***
+# ***  NEED TO VISUALLY VERIFY THAT THE OUTPUT VALUES     ***
+# ***  MATCH THE INPUT VALUES FOR EACH REGISTER LOCATION  ***
+# ***********************************************************
+# 
+# ** Note: $finish    : ../../lab2/test/instr_register_class.sv(51)
+#    Time: 220 ns  Iteration: 2  Instance: /top/test
+# 1
+# Break in Task run at ../../lab2/test/instr_register_class.sv line 51
+# Simulation Breakpoint: 1
+# Break in Task run at ../../lab2/test/instr_register_class.sv line 51
+# MACRO ./run.do PAUSED at line 45

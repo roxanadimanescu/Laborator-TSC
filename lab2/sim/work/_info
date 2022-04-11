@@ -7,33 +7,33 @@ vinstr_register
 Z1 Mx1 6 sv_std 3 std
 Z2 DXx6 sv_std 3 std 0 22 WnQ=;W1X^o9K1PIQTgInR3
 Z3 Mx2 4 work 18 instr_register_pkg
-Z4 DXx4 work 18 instr_register_pkg 0 22 Bl[bVCM7nVac3]99]Xo5D3
+Z4 DXx4 work 18 instr_register_pkg 0 22 jb]Zn]kaJ;Rd=f]P^GWEF0
 V3z9A3Eb_VM7O2iR_@`ig80
 r1
 !s85 0
 31
-I8o6A=:CjkO]_Q9Vzb2FM=1
+ISSU?aV]MQL9EF?1gaKULO0
 S1
 Z5 dD:\Anul 4\4B\Laborator TSC\lab2\sim
-w1647256947
+w1649057360
 8../../lab2/lab_dut/instr_register.sv
 F../../lab2/lab_dut/instr_register.sv
 L0 9
 Z6 OE;L;6.6d;45
 Z7 o-sv -work work -L mtiAvm -L mtiOvm -L mtiUPF
-Z8 !s92 -sv -work work +incdir+../../lab_dut +incdir+../../lab_dut +incdir+../../test +incdir+../../test +incdir+../../test -L mtiAvm -L mtiOvm -L mtiUPF
-!s100 NLc^O8MBO135k<>On?`9F3
+Z8 !s92 -sv -work work +incdir+../../lab_dut +incdir+../../lab_dut +incdir+../../lab2/test +incdir+../../lab2/test +incdir+../../test -L mtiAvm -L mtiOvm -L mtiUPF
+!s100 b0HjLoM^0N>nId1gdE:B^3
 !s105 instr_register_sv_unit
 Xinstr_register_pkg
 R1
 R2
-VBl[bVCM7nVac3]99]Xo5D3
+Vjb]Zn]kaJ;Rd=f]P^GWEF0
 r1
 31
-IBl[bVCM7nVac3]99]Xo5D3
+Ijb]Zn]kaJ;Rd=f]P^GWEF0
 S1
 R5
-w1647256867
+w1649045446
 8../../lab2/lab_dut/instr_register_pkg.sv
 F../../lab2/lab_dut/instr_register_pkg.sv
 L0 5
@@ -41,28 +41,52 @@ R6
 R7
 R8
 !s85 0
-!s100 TnBzV1[h^UXR_=KfYOJA_3
+!s100 R9hiFX]ZW]:N4Ef2R;[=V0
 vinstr_register_test
 R1
 R2
 R3
 R4
+Mx3 4 work 27 instr_register_test_sv_unit
+DXx4 work 27 instr_register_test_sv_unit 0 22 4bYHeR4Z[WlTCTKGz^c?`2
 VEBCnBoI9@;K2I3Z?DhHY42
 r1
 31
-IkGeJ[_W2f2Rc4B8^]E=`72
+IaH<S4naC:RA_SW3U`:hRf1
 S1
 R5
-w1648464473
-8../../lab2/test/instr_register_test.sv
-F../../lab2/test/instr_register_test.sv
-L0 8
+w1649667869
+Z9 8../../lab2/test/instr_register_test.sv
+Z10 F../../lab2/test/instr_register_test.sv
+L0 9
 R6
 R7
 R8
 !s85 0
-!s100 @ZdKj`jnOLmmlAbE26n1Y0
+!s100 zgifE^714Idk^j0dhMOMS3
 !s105 instr_register_test_sv_unit
+Xinstr_register_test_sv_unit
+R1
+R2
+R3
+R4
+V4bYHeR4Z[WlTCTKGz^c?`2
+r1
+31
+I4bYHeR4Z[WlTCTKGz^c?`2
+S1
+R5
+w1649671646
+R9
+R10
+F../../lab2/test/instr_register_class.sv
+L0 7
+R6
+R7
+R8
+!s85 0
+!s100 baQ5BAX[24MhbAOcWf3^52
+!i103 1
 Ytb_ifc
 R1
 R2
@@ -71,7 +95,7 @@ R4
 V[2MM;6bj4cE27ld353ZQ90
 r1
 31
-IF0YOf;aLW?d>XkZc4E>310
+II^hXiziVC?<1?Z^J;5hn:0
 S1
 R5
 w1648461466
@@ -92,7 +116,7 @@ R4
 Ve:gFW1CKLAXc^T:7k2HoD1
 r1
 31
-IT1^Bi2nQA70Z6K=]FL:QE1
+InM0BlhB?R7:SjfEHa;gL:0
 S1
 R5
 w1648459100

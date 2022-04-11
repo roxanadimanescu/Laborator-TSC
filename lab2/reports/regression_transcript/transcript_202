@@ -1,0 +1,26 @@
+# 1
+# Model Technology ModelSim SE vlog 6.6d Compiler 2010.11 Nov  1 2010
+# -- Compiling package instr_register_pkg
+# -- Compiling module instr_register
+# -- Importing package instr_register_pkg
+# -- Compiling package instr_register_test_sv_unit
+# -- Importing package instr_register_pkg
+# -- Compiling module instr_register_test
+# -- Compiling interface tb_ifc
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# ** Error: (vish-3296) Unknown option '-sv'.
+# Use the -help option for complete vsim usage.
+# ** Error: Error loading design
+# Error in macro ./run.do line 23
+# Error loading design
+#     while executing
+# "error "Error loading design""
+#     (procedure "vsim" line 131)
+#     invoked from within
+# "vsim -novopt -quiet -nocoverage +notimingchecks +nowarnTSCALE -sva -sv seed 202 top"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval vsim -novopt -quiet -nocoverage +notimingchecks +nowarnTSCALE -sva -sv seed $1 top"

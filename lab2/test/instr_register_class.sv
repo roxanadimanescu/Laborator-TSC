@@ -1,7 +1,8 @@
 
 class instr_register_class;
 virtual tb_ifc.TEST lab2_if;
-int seed = 555; //genereaza valorii aleatoare cu reproducere a acelor nr
+parameter NUMBER_OF_TRANZACTION = 100;
+//int seed = 777; //genereaza valorii aleatoare cu reproducere a acelor nr
 
     function new(virtual tb_ifc.TEST lab2_if);
       this.lab2_if =lab2_if;
@@ -26,7 +27,7 @@ int seed = 555; //genereaza valorii aleatoare cu reproducere a acelor nr
 
     $display("\nWriting values to register stack...");
     @(lab2_if.cb) lab2_if.cb.load_en <= 1'b1;  // enable writing to register
-    repeat (10) begin
+    repeat (NUMBER_OF_TRANZACTION) begin
       @( lab2_if.cb) randomize_transaction; // functia are timp de simulare 0,
       @(negedge lab2_if.cb) print_transaction;
     end
@@ -34,7 +35,7 @@ int seed = 555; //genereaza valorii aleatoare cu reproducere a acelor nr
 
     // read back and display same three register locations
     $display("\nReading back the same register locations written...");
-    for (int i=0; i<=9; i++) begin
+    for (int i=0; i<=NUMBER_OF_TRANZACTION-1; i++) begin
       // later labs will replace this loop with iterating through a
       // scoreboard to determine which addresses were written and
       // the expected values to be read back
@@ -60,9 +61,9 @@ int seed = 555; //genereaza valorii aleatoare cu reproducere a acelor nr
     // write_pointer values in a later lab
     //
     static int temp = 0;
-    lab2_if.cb.operand_a     <= $random(seed)%16;                 // between -15 and 15
-    lab2_if.cb.operand_b     <= $unsigned($random)%16;            // between 0 and 15
-    lab2_if.cb.opcode        <= opcode_t'($unsigned($random)%8);  // between 0 and 7, cast to opcode_t type, convesie
+    lab2_if.cb.operand_a     <= $urandom%16;                 // between -15 and 15
+    lab2_if.cb.operand_b     <= $unsigned($urandom)%16;            // between 0 and 15
+    lab2_if.cb.opcode        <= opcode_t'($unsigned($urandom)%8);  // between 0 and 7, cast to opcode_t type, convesie
     lab2_if.cb.write_pointer <= temp++; 
   endfunction: randomize_transaction
 
