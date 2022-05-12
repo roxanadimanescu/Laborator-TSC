@@ -1,5 +1,0 @@
-../../lab2/lab_dut/instr_register_pkg.sv   	                +incdir+../../lab_dut
-../../lab2/lab_dut/instr_register.sv   	                +incdir+../../lab_dut
-../../lab2/test/instr_register_test.sv                  +incdir+../../lab2/test
-../../lab2/test/tb_ifc.sv                               +incdir+../../lab2/test
-../../lab2/test/top.sv                                  +incdir+../../test
