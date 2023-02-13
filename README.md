@@ -1,2 +1,2 @@
 prezenta
-# Laborator-TSC
+# Laborator-TSC(Testarea si fiabilitatea sistemelor de calcul)
